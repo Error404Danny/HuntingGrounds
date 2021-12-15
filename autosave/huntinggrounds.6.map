@@ -3994,3 +3994,18 @@
 "classname" "monster_shambler"
 "origin" "2128 -2016 -24"
 }
+// entity 16
+{
+"classname" "monster_army"
+"origin" "2672 -2256 40"
+}
+// entity 17
+{
+"classname" "monster_army"
+"origin" "2672 -1856 40"
+}
+// entity 18
+{
+"classname" "monster_army"
+"origin" "2896 -2048 40"
+}
