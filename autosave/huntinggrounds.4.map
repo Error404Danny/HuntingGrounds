@@ -4073,7 +4073,7 @@
 // entity 23
 {
 "classname" "func_door"
-"spawnflags" "0"
+"spawnflags" "8"
 "angle" "270"
 // brush 0
 {
