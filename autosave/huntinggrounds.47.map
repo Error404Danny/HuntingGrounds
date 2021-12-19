@@ -5529,7 +5529,6 @@
 {
 "classname" "item_key1"
 "origin" "2800 -192 40"
-"target" "ThisDoor"
 }
 // entity 54
 {

@@ -6507,7 +6507,8 @@
 // entity 169
 {
 "classname" "light"
-"origin" "2712 -80 120"
+"origin" "2792 -128 120"
+"delay" "1"
 }
 // entity 170
 {
