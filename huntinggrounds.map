@@ -4367,7 +4367,7 @@
 ( 2672 -2272 16 ) ( 2672 -2271 16 ) ( 2672 -2272 17 ) mt_sr_v1y [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
 ( 2656 -2272 16 ) ( 2656 -2272 17 ) ( 2657 -2272 16 ) mt_sr_v1y [ 1 0 0 -64 ] [ 0 0 -1 0 ] 0 1 1
 ( 2656 -2272 16 ) ( 2657 -2272 16 ) ( 2656 -2271 16 ) mt_sr_v1y [ -1 0 0 64 ] [ 0 -1 0 32 ] 0 1 1
-( 2704 -2176 32 ) ( 2704 -2175 32 ) ( 2705 -2176 32 ) mt_sr_v1y [ 1 0 0 -64 ] [ 0 -1 0 32 ] 0 1 1
+( 2704 -2176 40 ) ( 2704 -2175 40 ) ( 2705 -2176 40 ) mt_sr_v1y [ 1 0 0 -64 ] [ 0 -1 0 32 ] 0 1 1
 ( 2704 -2176 32 ) ( 2705 -2176 32 ) ( 2704 -2176 33 ) mt_sr_v1y [ -1 0 0 64 ] [ 0 0 -1 0 ] 0 1 1
 ( 2688 -2176 32 ) ( 2688 -2176 33 ) ( 2688 -2175 32 ) mt_sr_v1y [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
@@ -4482,7 +4482,7 @@
 ( 2424 -1944 16 ) ( 2424 -1943 16 ) ( 2424 -1944 17 ) mt_sr_v1y [ 0 -1 0 -40 ] [ 0 0 -1 0 ] 0 1 1
 ( 2408 -1944 16 ) ( 2408 -1944 17 ) ( 2409 -1944 16 ) mt_sr_v1y [ 1 0 0 56 ] [ 0 0 -1 0 ] 0 1 1
 ( 2408 -1944 16 ) ( 2409 -1944 16 ) ( 2408 -1943 16 ) mt_sr_v1y [ -1 0 0 -56 ] [ 0 -1 0 -40 ] 0 1 1
-( 2456 -1848 32 ) ( 2456 -1847 32 ) ( 2457 -1848 32 ) mt_sr_v1y [ 1 0 0 56 ] [ 0 -1 0 -40 ] 0 1 1
+( 2456 -1848 40 ) ( 2456 -1847 40 ) ( 2457 -1848 40 ) mt_sr_v1y [ 1 0 0 56 ] [ 0 -1 0 -40 ] 0 1 1
 ( 2456 -1848 32 ) ( 2457 -1848 32 ) ( 2456 -1848 33 ) mt_sr_v1y [ -1 0 0 -56 ] [ 0 0 -1 0 ] 0 1 1
 ( 2440 -1848 32 ) ( 2440 -1848 33 ) ( 2440 -1847 32 ) mt_sr_v1y [ 0 1 0 40 ] [ 0 0 -1 0 ] 0 1 1
 }
@@ -4597,7 +4597,7 @@
 ( 2728 -2040 16 ) ( 2728 -2039 16 ) ( 2728 -2040 17 ) mt_sr_v1y [ 0 -1 0 56 ] [ 0 0 -1 0 ] 0 1 1
 ( 2712 -2040 16 ) ( 2712 -2040 17 ) ( 2713 -2040 16 ) mt_sr_v1y [ 1 0 0 -40 ] [ 0 0 -1 0 ] 0 1 1
 ( 2712 -2040 16 ) ( 2713 -2040 16 ) ( 2712 -2039 16 ) mt_sr_v1y [ -1 0 0 40 ] [ 0 -1 0 56 ] 0 1 1
-( 2760 -1944 32 ) ( 2760 -1943 32 ) ( 2761 -1944 32 ) mt_sr_v1y [ 1 0 0 -40 ] [ 0 -1 0 56 ] 0 1 1
+( 2760 -1944 40 ) ( 2760 -1943 40 ) ( 2761 -1944 40 ) mt_sr_v1y [ 1 0 0 -40 ] [ 0 -1 0 56 ] 0 1 1
 ( 2760 -1944 32 ) ( 2761 -1944 32 ) ( 2760 -1944 33 ) mt_sr_v1y [ -1 0 0 40 ] [ 0 0 -1 0 ] 0 1 1
 ( 2744 -1944 32 ) ( 2744 -1944 33 ) ( 2744 -1943 32 ) mt_sr_v1y [ 0 1 0 -56 ] [ 0 0 -1 0 ] 0 1 1
 }
@@ -4965,11 +4965,11 @@
 // entity 13
 {
 "classname" "func_door"
-"w" "0"
 "target" ""
 "targetname" "opensesame"
 "angle" "90"
 "wait" "-1"
+"message" " "
 // brush 0
 {
 ( 2128 -2048 -48 ) ( 2128 -2047 -48 ) ( 2128 -2048 -47 ) dr_pv_ma1a [ 0 -1 0 48 ] [ 0 0 -1 0 ] 0 1 1
@@ -5024,8 +5024,8 @@
 // entity 17
 {
 "classname" "monster_dog"
-"origin" "3296 112 40"
-"angle" "270"
+"origin" "3312 -16 40"
+"angle" "90"
 "target" "encountertrigger"
 }
 // entity 18
@@ -5053,8 +5053,8 @@
 // entity 20
 {
 "classname" "info_teleport_destination"
-"origin" "3272 -968 48"
-"angle" "90"
+"origin" "3272 -696 48"
+"angle" "270"
 "targetname" "telespawn"
 }
 // entity 21
@@ -5415,12 +5415,13 @@
 // entity 51
 {
 "classname" "item_key1"
-"origin" "2800 -192 40"
+"origin" "2688 368 40"
 }
 // entity 52
 {
 "classname" "trigger_once"
 "message" "Send Message via Computer..."
+"targetname" "PlayerMission"
 // brush 0
 {
 ( 1920 -2048 -48 ) ( 1920 -2047 -48 ) ( 1920 -2048 -47 ) trigger [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
@@ -5620,7 +5621,7 @@
 // entity 83
 {
 "classname" "monster_army"
-"origin" "1808 -512 -56"
+"origin" "1856 -608 -56"
 "angle" "270"
 }
 // entity 84
@@ -5632,8 +5633,8 @@
 // entity 85
 {
 "classname" "monster_army"
-"origin" "2160 -448 -56"
-"angle" "180"
+"origin" "2032 -448 -56"
+"angle" "0"
 }
 // entity 86
 {
@@ -5705,17 +5706,17 @@
 // entity 99
 {
 "classname" "item_shells"
-"origin" "2560 -324 -72"
+"origin" "2544 -324 -72"
 }
 // entity 100
 {
 "classname" "item_health"
-"origin" "2556 -384 -72"
+"origin" "2540 -384 -72"
 }
 // entity 101
 {
 "classname" "item_armor1"
-"origin" "2576 -432 -80"
+"origin" "2560 -432 -80"
 }
 // entity 102
 {
@@ -6423,7 +6424,7 @@
 // entity 172
 {
 "classname" "item_rockets"
-"origin" "2576 -664 -80"
+"origin" "2560 -664 -80"
 }
 // entity 173
 {
@@ -6434,27 +6435,27 @@
 // entity 174
 {
 "classname" "item_rockets"
-"origin" "2576 -704 -80"
+"origin" "2560 -704 -80"
 }
 // entity 175
 {
 "classname" "item_cells"
-"origin" "2400 -624 -80"
+"origin" "2416 -624 -80"
 }
 // entity 176
 {
 "classname" "item_cells"
-"origin" "2400 -504 -80"
+"origin" "2416 -504 -80"
 }
 // entity 177
 {
 "classname" "item_spikes"
-"origin" "2400 -584 -80"
+"origin" "2416 -584 -80"
 }
 // entity 178
 {
 "classname" "item_spikes"
-"origin" "2400 -544 -80"
+"origin" "2416 -544 -80"
 }
 // entity 179
 {
@@ -6485,7 +6486,7 @@
 // entity 184
 {
 "classname" "item_rockets"
-"origin" "2672 384 24"
+"origin" "2704 384 24"
 }
 // entity 185
 {
@@ -6585,7 +6586,7 @@
 // entity 204
 {
 "classname" "item_rockets"
-"origin" "2672 328 24"
+"origin" "2704 328 24"
 }
 // entity 205
 {
@@ -7078,7 +7079,7 @@
 // entity 282
 {
 "classname" "trigger_once"
-"message" "Silver Key should be in one of these cubicles..."
+"message" "Maybe Silver Key is here..."
 // brush 0
 {
 ( 3248 -272 16 ) ( 3248 -271 16 ) ( 3248 -272 17 ) br_st_m3f [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -7216,4 +7217,10 @@
 "origin" "3176 -488 40"
 "targetname" "path4"
 "target" "path1"
+}
+// entity 291
+{
+"classname" "monster_army"
+"origin" "2336 -336 -56"
+"angle" "0"
 }
